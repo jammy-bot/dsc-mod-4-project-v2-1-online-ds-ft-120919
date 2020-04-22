@@ -3,42 +3,21 @@
 
 ## Introduction
 
-In this lesson, we'll review all of the guidelines and specifications for the final project for Module 4.
+This project involves building a deep neural network that trains on a large dataset for classification on a non-trivial task.
 
-## Objectives
-
-* Understand all required aspects of the Final Project for Module 4
-* Understand all required deliverables
-* Understand what constitutes a successful project
-
-## Final Project Summary
-
-Final module down -- you're absolutely crushing it! You've made it all the way through one of the toughest modules of this course. You must have an amazing brain in your head!
-
-<img src='https://raw.githubusercontent.com/learn-co-students/dsc-mod-4-project-seattle-ds-102819/master/images/brain.gif'>
+<img src='https://raw.githubusercontent.com/jammy-bot/dsc-mod-4-project-v2-1-online-ds-120919/master/images/NORMAL2-IM-0502-0001.jpeg'>
 
 ## The Dataset
 
-- Image Classification with Deep Learning 
-
-
-For each problem, we have provided a dataset.  You are highly encouraged to use the provided dataset, but you may use an alternative dataset of your own choosing, pending instructor approval.
-
-Like Project \#3, the focus here is on *prediction*. It will be up to you to determine how best to evaluate your model, but for any of these projects you should imagine that your goal is to build something that **works**.  If you invest in poorly chosen ZIP codes, this will hurt the business. If you make poor movie recommendations, people will stop trusting your judgments.  And the seriousness of the consequences of mis-classifying pneumonic or non-pneumonic lungs goes without saying! 
-
-When choosing a problem, consider:
-
-1. **Portfolio Depth:** One option is to choose the same type of problem you plan to tackle in Module 5 (capstone).  This will allow you to practice the necessary skills in a group setting, before diving into your individual project.  You will likely produce a capstone project that is more polished and sophisticated, but your portfolio will demonstrate less breadth.
-2. **Portfolio Breadth:** Another option is to choose a type of problem that interests you, but that you don't plan to use in your capstone project.  Each of your individual projects will end up less polished and sophisticated, but you will end up with a portfolio that demonstrates a wider range of skills.
 
 
 ### Problem 3: Image Classification with Deep Learning
 
-If you choose this option, you'll put everything you've learned together to build a deep neural network that trains on a large dataset for classification on a non-trivial task.  In this case, using x-ray images of pediatric patients to identify whether or not they have pneumonia.  The dataset comes from Kermany et al. on [Mendeley](https://data.mendeley.com/datasets/rscbjbr9sj/3), although there is also a version on [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) that may be easier to use.
+ In this case, the task is using x-ray images of patients to classify whether or not they have pneumonia. The dataset originates from Kermany et al. on [Mendeley](https://data.mendeley.com/datasets/rscbjbr9sj/3). The particular subset used for this project is sourced via [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia).
 
 Your task is to:
 
-> Build a model that can classify whether a given patient has pneumonia, given a chest x-ray image. 
+> Build a model that can classify whether a given patient has pneumonia, given a chest x-ray image.
 
 #### Aim for a Proof of Concept
 
@@ -58,7 +37,7 @@ For online students, your completed project should contain the following four de
 
 1. A **_Jupyter Notebook_** containing any code you've written for this project. This work will need to be pushed to a public GitHub repository dedicated for this project.
 
-2. An organized **README.md** file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository. 
+2. An organized **README.md** file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository.
 
 3. A **_[Blog Post](https://github.com/learn-co-curriculum/dsc-welcome-blogging-v2-1)_**.
 
@@ -97,7 +76,7 @@ Remember that if a visualization is worth creating, then it's also worth taking 
 * A legend, when necessary
 * No overlapping text that makes it hard to read
 * An intelligent use of color -- multiple lines should have different colors and/or symbols to make them easily differentiable to the eye
-* An appropriate amount of information -- avoid creating graphs that are "too busy". For instance, don't create a line graph with 25 different lines on it. 
+* An appropriate amount of information -- avoid creating graphs that are "too busy". For instance, don't create a line graph with 25 different lines on it.
 
 <center><img src='images/bad-graph-1.png' height=100% width=100%>
 There's just too much going on in this graph for it to be readable -- don't make the same mistake! (<a href='http://genywealth.com/wp-content/uploads/2010/03/line-graph.php_.png'>Source</a>)</center>
@@ -158,7 +137,7 @@ In this case, your "deployment" comes in the form of the deliverables listed abo
  - "What are some of the things that could cause the results to be wrong?"
 
 
-## Grading Rubric 
+## Grading Rubric
 
 Online students can find a PDF of the grading rubric for the project [here](TODO). _Note: On-campus students may have different requirements, please speak with your instructor._
 
