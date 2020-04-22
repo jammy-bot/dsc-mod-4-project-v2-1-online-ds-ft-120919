@@ -2,26 +2,17 @@
 
 
 ## Introduction
+### Image Classification with Deep Learning
+This project involves building a deep neural network that trains on a large dataset for classification on a non-trivial task. In this case, the task is using x-ray images of patients to classify whether or not they have pneumonia.
 
-This project involves building a deep neural network that trains on a large dataset for classification on a non-trivial task.
-
-<img src='https://raw.githubusercontent.com/jammy-bot/dsc-mod-4-project-v2-1-online-ds-120919/master/images/NORMAL2-IM-0502-0001.jpeg'>
+![Chest x-ray image of normal lungs](/images/"NORMAL2-IM-0502-0001.jpeg")*Chest x-ray image of normal lungs*
 
 ## The Dataset
-
-
-
-### Problem 3: Image Classification with Deep Learning
-
- In this case, the task is using x-ray images of patients to classify whether or not they have pneumonia. The dataset originates from Kermany et al. on [Mendeley](https://data.mendeley.com/datasets/rscbjbr9sj/3). The particular subset used for this project is sourced via [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia).
-
-Your task is to:
-
-> Build a model that can classify whether a given patient has pneumonia, given a chest x-ray image.
+The dataset originates from Kermany et al. on [Mendeley](https://data.mendeley.com/datasets/rscbjbr9sj/3). The particular subset used for this project is sourced via [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia).
 
 #### Aim for a Proof of Concept
 
-With Deep Learning, data is king -- the more of it, the better. However, the goal of this project isn't to build the best model possible -- it's to demonstrate your understanding by building a model that works. You should try to avoid datasets and model architectures that won't run in reasonable time on your own machine. For many problems, this means downsampling your dataset and only training on a portion of it. Once you're absolutely sure that you've found the best possible architecture and other hyperparameters for your model, then consider training your model on your entire dataset overnight (or, as larger portion of the dataset that will still run in a feasible amount of time).
+My aim for this project was to building a model that works. You should try to avoid datasets and model architectures that won't run in reasonable time on your own machine. For many problems, this means downsampling your dataset and only training on a portion of it. Once you're absolutely sure that you've found the best possible architecture and other hyperparameters for your model, then consider training your model on your entire dataset overnight (or, as larger portion of the dataset that will still run in a feasible amount of time).
 
 At the end of the day, we want to see your thought process as you iterate and improve on a model. A project that achieves a lower level of accuracy but has clearly iterated on the model and the problem until it found the best possible approach is more impressive than a model with high accuracy that did no iteration. We're not just interested in seeing you finish a model -- we want to see that you understand it, and can use this knowledge to try and make it even better!
 
