@@ -2,13 +2,13 @@
 
 <!-- #region -->
 ## Image Classification with Deep Learning
-!["Chest x-ray image of normal lungs"](images/normal.png)*Chest x-ray image of normal lungs*
+!["Chest x-ray image of normal lungs"](images/normal.jpg)*Chest x-ray image of normal lungs*
 
 This project involves building a deep neural network that trains on a large dataset for classification on a non-trivial task. In this case, the task is using x-ray images of patients to classify whether or not they have pneumonia.
 
 ## The Dataset
 
-The dataset originates from Kermany et al. on [Mendeley](https://data.mendeley.com/datasets/rscbjbr9sj/3). 
+The dataset originates from Kermany et al. on [Mendeley](https://data.mendeley.com/datasets/rscbjbr9sj/3).
 
 The particular subset used for this project is sourced via [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia). The subset contains 5,863 rgb chest x-ray images, in JPEG format. Images are organized into folders for training, validation, and testing, each of which is split into 'NORMAL' AND 'PNEUMONIA' subfolders.
 
