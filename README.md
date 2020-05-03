@@ -38,7 +38,7 @@ After building additional models, I identified the most accurate among them for 
 # Featured Notebooks/Analysis
 
 * [`student`: **Jupyter Notebook**](student.ipynb): containing code written for this project and comments explaining it. 
-* [`1_obtain.ipynb`: **Jupyter Notebook**](1_obtain.ipynb): containing code for loading and pre - processing data
+* [`1-obtain.ipynb`: **Jupyter Notebook**](1-obtain.ipynb): containing code for loading and pre - processing data
 * [`2-explore-model.ipynb`: **Jupyter Notebook**](2-explore-model.ipynb): containing code for visualization and pre - modeling EDA
 
 
