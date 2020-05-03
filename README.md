@@ -37,15 +37,14 @@ After building additional models, I identified the most accurate among them for 
 
 # Featured Notebooks/Analysis
 
-* [`student`: **Jupyter Notebook**](student.ipynb): containing code written for this project and comments explaining it. Obtaining, scrubbing, exploring tasks were relatively straightforward and compact enough that only one notebook was used for all operations.
+* [`student`: **Jupyter Notebook**](student.ipynb): containing code written for this project and comments explaining it. 
+* [`1_obtain.ipynb`: **Jupyter Notebook**](1_obtain.ipynb): containing code for loading and pre - processing data
+* [`2-explore-model.ipynb`: **Jupyter Notebook**](2-explore-model.ipynb): containing code for visualization and pre - modeling EDA
 
-#### Visualizations & EDA
-
-* Visualizations, with corresponding interpretations are included within the 'student' notebook.
 
 ### Non-Technical Presentation
 
-* [presentation.pdf](presentation.pdf) summarizing  methodology and findings
+* [presentation.pdf](presentation - mod4.pdf) summarizing  methodology, findings, and future work
 
 
 # Technologies
@@ -54,12 +53,24 @@ After building additional models, I identified the most accurate among them for 
 * libraries and modules:
   - Numpy
   - OS
-  - Keras
+  - Keras:
+    * callbacks
+    * layers
+    * load_model
+    * models
+    * plot_model
+    * optimizers
   - Scikit-Learn:
     * metrics
     * model_selection
+  - Time
+    ...
 * visualization libraries
   - Matplotlib
 
 
 <!-- #endregion -->
+
+```python
+
+```
