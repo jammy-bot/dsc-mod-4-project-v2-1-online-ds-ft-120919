@@ -27,13 +27,14 @@ Using the Keras library, I designed a sequentially layered convolutional neural 
 
 I instantiated 'callbacks' for the model, which programatically saved model weights to the model's history whenever they improved over the previous epoch. In addition, I made use of Keras's ReduceLROnPlateau and EarlyStopping modules, set to either reduce the model's learning rate or to stop the model when its loss did not improve over a set number of epochs.
 
-!["Graphical sequence of model layers"](images/model-architecture.png)*Graphical sequence of model layers*
+![""](images/horizontal-model-architecture-top.jpg)
+!["Graphical sequence of model layers"](images/horizontal-model-architecture-bottom.jpg)*Graphical sequence of model layers*
 
-Since the task was binary classification ('NORMAL' OR 'PNEUMONIA'), the model was designed to output to a sigmoid activation layer.
+> Since the task was binary classification ('NORMAL' OR 'PNEUMONIA'), the model was designed to output to a sigmoid activation layer.
 
 #### Evaluation
 
-After building additional models, I identified the most accurate among them for distribution. I test reloading the model and report its accuracy in the project notebook.
+After building additional models, I identified the most accurate among them for distribution. I test reloading the model and report performance metrics in the project notebook.
 
 # Featured Notebooks/Analysis
 
