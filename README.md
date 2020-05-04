@@ -45,7 +45,7 @@ After building additional models, I identified the most accurate among them for 
 
 ### Non-Technical Presentation
 
-* ['presentation-mod4.pdf'](presentation-mod4.pdf) summarizing  methodology, findings, and future work
+* ['presentation.pdf'](presentation-mod4.pdf) summarizing  methodology, findings, and future work
 
 
 # Technologies
