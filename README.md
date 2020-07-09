@@ -69,7 +69,6 @@ After building additional models, I identified the most accurate among them for 
 * visualization libraries
   - Matplotlib
 
-
 <!-- #endregion -->
 
 ```python
