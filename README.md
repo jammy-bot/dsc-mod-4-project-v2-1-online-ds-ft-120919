@@ -36,6 +36,9 @@ I instantiated 'callbacks' for the model, which programatically saved model weig
 
 After building additional models, I identified the most accurate among them for distribution. I test reloading the model and report performance metrics in the project notebook.
 
+The resulting selection is still a baseline model, and I will be interested to return to the project, for additional tuning and/ or refactoring (including building and evaluating a model in Pytorch).
+
+
 # Featured Notebooks/Analysis
 
 * [`student`: **Jupyter Notebook**](student.ipynb): containing code written for this project and comments explaining it.
