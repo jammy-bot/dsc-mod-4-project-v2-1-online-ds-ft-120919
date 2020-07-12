@@ -1,7 +1,7 @@
 # Module 4 Final Project
 
 <!-- #region -->
-## Image Classification with Deep Learning
+## Image Classification with Deep Learning (DL)
 !["Chest x-ray image of normal lungs"](images/normal.jpg)*Chest x-ray image of normal lungs*
 
 This project involves building a deep neural network that trains on a large dataset for classification on a non-trivial task. In this case, the task is using x-ray images of patients to classify whether or not they have pneumonia.
@@ -25,7 +25,7 @@ I acquired project data from Kaggle via API, in a compressed (Zip) format, and r
 
 Using the Keras library, I designed a sequentially layered convolutional neural network with Max Pooling and rectified linear activation functions (ReLU). The initial model was compiled with an RMSprop optimizer. It is a relatively fast optimizer, which independently adjusts gradient step - size for model weights.
 
-I instantiated 'callbacks' for the model, which programatically saved model weights to the model's history whenever they improved over the previous epoch. In addition, I made use of Keras's ReduceLROnPlateau and EarlyStopping modules, set to either reduce the model's learning rate or to stop the model when its loss did not improve over a set number of epochs.
+I instantiated 'callbacks' for the model, which programmatically saved model weights to the model's history whenever they improved over the previous epoch. In addition, I made use of Keras's ReduceLROnPlateau and EarlyStopping modules, set to either reduce the model's learning rate or to stop the model when its loss did not improve over a set number of epochs.
 
 ![""](images/horizontal-model-architecture-top.jpg)
 !["Graphical sequence of model layers"](images/horizontal-model-architecture-bottom.jpg)*Graphical sequence of model layers*
@@ -36,12 +36,12 @@ I instantiated 'callbacks' for the model, which programatically saved model weig
 
 After building additional models, I identified the most accurate among them for distribution. I test reloading the model and report performance metrics in the project notebook.
 
-The resulting selection is still a baseline model, and I will be interested to return to the project, for additional tuning and/ or refactoring (including building and evaluating a model in Pytorch).
+The resulting selection is still a baseline model, and I will be interested to return to the project, for additional tuning and/ or refactoring (including building and evaluating a model on a different DL library, eg., Pytorch).
 
 
 # Featured Notebooks/Analysis
 
-* [`student`: **Jupyter Notebook**](student.ipynb): containing code written for this project and comments explaining it.
+* [`pneumonia-classification`: **Jupyter Notebook**](pneumonia-classification.ipynb): containing code written for this project and comments explaining it.
 * [`1-obtain.ipynb`: **Jupyter Notebook**](1-obtain.ipynb): containing code for loading and pre - processing data
 * [`2-explore-model.ipynb`: **Jupyter Notebook**](2-explore-model.ipynb): containing code for visualization and pre - modeling EDA
 
