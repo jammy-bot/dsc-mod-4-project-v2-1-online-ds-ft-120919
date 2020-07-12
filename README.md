@@ -1,7 +1,6 @@
-# Module 4 Final Project
+# Pneumonia X - ray Deep Learning Classification
 
 <!-- #region -->
-## Image Classification with Deep Learning (DL)
 !["Chest x-ray image of normal lungs"](images/normal.jpg)*Chest x-ray image of normal lungs*
 
 This project involves building a deep neural network that trains on a large dataset for classification on a non-trivial task. In this case, the task is using x-ray images of patients to classify whether or not they have pneumonia.
