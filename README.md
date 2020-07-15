@@ -18,7 +18,7 @@ My aim for this project was not to build a perfect model; rather the intent was 
 #### Data Preparation
 !["Bar plot of test data counts per class"](images/test-counts.png)*Bar plot of test data counts per class*
 
-I acquired project data from Kaggle via API, in a compressed (Zip) format, and read them into directories created within Colab's temporary environment. I then standardized, reshaped, and inspected the image data.
+I acquired project data from Kaggle via API, in a compressed (Zip) format, and read them into directories created within Colab's temporary environment. I then standardized, reshaped, and inspected the image data. Prepared image data were fed into the model, representing 150 x 150 pixels in 3 channels (rgb).
 
 #### Modeling
 
