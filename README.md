@@ -1,7 +1,7 @@
 # Pneumonia X - ray Deep Learning Classification
 
 <!-- #region -->
-!["Chest x-ray image of normal lungs"](images/normal.jpg)*Chest x-ray image of normal lungs*
+!["Chest x-ray image of normal lungs"](images/normal.jpg)<p style="margin-left:10%;">Chest x-ray image of normal lungs</p>
 
 This project involves building a deep neural network that trains on a large dataset for classification on a non-trivial task. In this case, the task is using x-ray images of patients to classify whether or not they have pneumonia.
 
@@ -16,7 +16,7 @@ The particular subset used for this project is sourced via [Kaggle](https://www.
 My aim for this project was not to build a perfect model; rather the intent was to build a working model and to explore how changes to model architecture and hyperperameters can impact model accuracy. In addition, I wanted to make use of cloud computing (in this case, using Google Colab's free GPU and browser - based Jupyter Notebook) and suggest methods for distributing working models to end users.
 
 #### Data Preparation
-!["Bar plot of test data counts per class"](images/test-counts.png)*Bar plot of test data counts per class*
+!["Bar plot of test data counts per class"](images/test-counts.png)
 
 I acquired project data from Kaggle via API, in a compressed (Zip) format, and read them into directories created within Colab's temporary environment. I then standardized, reshaped, and inspected the image data. Prepared image data were fed into the model, representing 150 x 150 pixels in 3 channels (rgb).
 
@@ -27,7 +27,7 @@ Using the Keras library, I designed a sequentially layered convolutional neural 
 I instantiated 'callbacks' for the model, which programmatically saved model weights to the model's history whenever they improved over the previous epoch. In addition, I made use of Keras's ReduceLROnPlateau and EarlyStopping modules, set to either reduce the model's learning rate or to stop the model when its loss did not improve over a set number of epochs.
 
 ![""](images/horizontal-model-architecture-top.jpg)
-!["Graphical sequence of model layers"](images/horizontal-model-architecture-bottom.jpg)*Graphical sequence of model layers*
+!["Graphical sequence of model layers"](images/horizontal-model-architecture-bottom.jpg)<p style="margin-left:10%;">Graphical sequence of model layers</p>
 
 > Since the task was binary classification ('NORMAL' OR 'PNEUMONIA'), the model was designed to output to a sigmoid activation layer.
 
